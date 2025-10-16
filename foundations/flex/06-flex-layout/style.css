@@ -7,10 +7,22 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li{
+  list-style: none;
+}
+
 img {
   width: 600px;
 }
 
+.content{
+  text-align: center;
+}
 button {
   font-family: Roboto, sans-serif;
   border: none;
@@ -24,3 +36,15 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-links,.right-links{
+  display: inline-flex;
+  gap: 15px;
+}
+
